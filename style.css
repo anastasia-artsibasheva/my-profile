@@ -1,0 +1,138 @@
+body {
+  background-color: #f8efd4;
+  color: #aa4a30;
+  font-family:'Noto Serif SC', serif;
+  position: relative;
+ }
+.page-content {
+  width: 750px;
+  margin: 8px auto;
+}
+.card-white {
+   background: #fcf8e8;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+   width: 700px;
+   margin: 8px auto;
+  }
+@media (max-width: 900px) {
+  .page-content {
+    width: 750px;
+  }
+  .list-down {
+    width: 300px;
+  }
+}
+@media (max-width: 700px) {
+  .page-content {
+    width: 400px;
+  }
+  .list-down {
+    width: 170px;
+  }
+}
+@media (max-width: 500px) {
+  .page-content {
+    width: 200px;
+  }
+  .list-down {
+    width: 90px;
+  }
+}
+.menubutton {
+  background-color: #fcf8e8;
+  color: #aa4a30;
+  border: none;
+  padding: 19px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  position: fixed;
+ }
+ .menubutton:hover {
+    background-color: #fcf8e8;
+  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.list-down {
+  display: none;
+  background-color: #fcf8e8;
+  min-width: 200px;
+  margin-top:10px;
+  padding: 19px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  position: fixed;
+ }
+ .list-down a {
+   color: #aa4a30;
+   padding: 19px;
+   text-decoration: none;
+   display: block;
+  }
+ .dropdown:hover .list-down {
+   display: block;
+  }
+  h1, h2 {
+   font-family:'Quicksand', sans-serif;
+   text-align: center;
+  }
+  h1 {
+   color: #62959c;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 30px;
+   letter-spacing: 5px;
+  }
+  h2 {
+   font-weight: 500;
+   font-size: 26px;
+  }
+   img {
+    border-radius: 50%;
+    width: 220px;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.2);
+   }
+   .img-center {
+    text-align: center;
+   }
+   p {
+    color: #cc7351;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+   }
+   .p-bold {
+    font-size: 20px;
+    font-weight: bold;
+   }
+   ul {
+     list-style: none;
+     text-align: center;
+    }
+   .list-inline li {
+    display: inline;
+    padding: 10px;
+   }
+   .list-inline i {
+    font-size: 30px;
+   }
+   .ul-bullet {
+    list-style-type: circle;
+    padding: 5px 180px 5px 180px;
+    margin: 30px;
+   }
+   a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #aa4a30;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    text-align: center;
+   }
+    a:hover {
+     color: #62959c;
+     text-decoration: underline;
+    }

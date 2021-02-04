@@ -136,3 +136,10 @@ body {
      color: #62959c;
      text-decoration: underline;
     }
+   .button {
+      background-color: #f8efd4;
+      padding: 10px 15px;
+      border-radius: 4px;
+      box-shadow: 5px 5px 3px 3px rgba(0,0,0,0.1);
+    }
+
